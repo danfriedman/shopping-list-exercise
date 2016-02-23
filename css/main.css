@@ -1,0 +1,46 @@
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.add-item {
+	width: 400px;
+	height: 40px;
+}
+
+.add-item-submit {
+	height: 40px;
+}
+
+.item {
+	height: 40px;
+	width: 400px;
+	border: 1px solid gray;
+	margin-top: 20px;
+}
+
+.item-text, .checked-item-text, .check, .delete {
+	line-height: 40px;
+}
+
+.item-text, .checked-item-text {
+	display: inline;
+	width: 360px;
+}
+
+.checked-item-text {
+	text-decoration: line-through;
+}
+
+.check {
+	height: 40px;
+}
+
+.delete {
+	background-image: url('/images/trash.svg');
+	height: 25px;
+}
