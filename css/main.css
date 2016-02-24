@@ -14,6 +14,7 @@ h1 {
 
 .add-item-submit {
 	height: 40px;
+	width: 150px;
 }
 
 .item {
@@ -43,4 +44,8 @@ h1 {
 .delete {
 	background-image: url('/images/trash.svg');
 	height: 25px;
+}
+
+.no-show {
+	display: none;
 }
