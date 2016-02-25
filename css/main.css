@@ -3,8 +3,16 @@
 	margin: 0 auto;
 }
 
-h1 {
-	text-align: center;
+.clear {
+	clear:both;
+}
+
+.headline {
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
 .add-item {
@@ -12,38 +20,46 @@ h1 {
 	height: 40px;
 }
 
+*:focus {
+	outline: 1px solid #ccc;
+}
+
 .add-item-submit {
-	height: 40px;
+	height: 45px;
 	width: 150px;
+	margin-left: -5px;
 }
 
 .item {
-	height: 40px;
-	width: 400px;
+	width: 554px;
 	border: 1px solid gray;
 	margin-top: 20px;
 }
 
-.item-text, .checked-item-text, .check, .delete {
-	line-height: 40px;
-}
-
 .item-text, .checked-item-text {
-	display: inline;
-	width: 360px;
+	display: inline-block;
+	width: 440px;
+	font-size: 20px;
+	margin: 10px 0 10px 10px;
 }
 
 .checked-item-text {
 	text-decoration: line-through;
 }
 
-.check {
-	height: 40px;
+.check, .uncheck {
+	height: 25px;
+	float: right;
+	margin-top: 8px;
 }
 
 .delete {
 	background-image: url('/images/trash.svg');
-	height: 25px;
+	height: 29px;
+	position: relative;
+	top: 8px;
+	margin-top: -4px;
+	float: right;	
 }
 
 .no-show {
